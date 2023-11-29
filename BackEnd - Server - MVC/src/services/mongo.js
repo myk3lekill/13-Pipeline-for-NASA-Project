@@ -15,9 +15,7 @@ mongoose.connection.on('error', (err) => {
 
 //Create a mangoConnect function to export that calls mngoose.connect
 async function mongoConnect() {
-    await mongoose.connect(MONGO_URL, {
-        useUnifiedTopology: true
-    }); 
+    await mongoose.connect(MONGO_URL); 
 };
 
 async function mongoDisconnect() {

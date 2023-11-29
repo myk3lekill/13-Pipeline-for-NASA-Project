@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 //Mongoose Schema
 const planetSchema = new mongoose.Schema({
